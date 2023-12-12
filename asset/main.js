@@ -67,7 +67,7 @@ window.addEventListener('load', async () => {
 });
 
 function getCard() {
-  return fetch('/asset/data.json')
+  return fetch('https://github.com/Naksuuuu/itw2023_project2_233040088/blob/main/asset/data.json')
     .then((response) => response.json())
     .then((response) => response.Cake);
 }
@@ -159,7 +159,7 @@ window.addEventListener('click', async function (e) {
 });
 
 function cardToCart(id) {
-  return fetch('/asset/data.json')
+  return fetch('https://github.com/Naksuuuu/itw2023_project2_233040088/blob/main/asset/data.json')
     .then((response) => response.json())
     .then((response) => response.Cake)
     .then((response) => response[id]);
