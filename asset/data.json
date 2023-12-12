@@ -1,0 +1,60 @@
+{
+  "Cake": [
+    {
+      "Type": "Blueberry Rose Cake",
+      "Description": "Rasakan kelezatan istimewa Blueberry Vanilla Cake kami, kombinasi sempurna blueberry segar dan vanilla lembut dalam setiap gigitan.",
+      "Price": "150.000",
+      "Id": "0",
+      "Img": "asset/img/1.jpg"
+    },
+    {
+      "Type": "Pink Ribbon Cake",
+      "Description": "Rasakan kelezatan istimewa Blueberry Vanilla Cake kami, kombinasi sempurna blueberry segar dan vanilla lembut dalam setiap gigitan.",
+      "Price": "50.000",
+      "Id": "1",
+      "Img": "asset/img/2.jpg"
+    },
+    {
+      "Type": "Vanilla Cake",
+      "Description": "Rasakan kelezatan istimewa Blueberry Vanilla Cake kami, kombinasi sempurna blueberry segar dan vanilla lembut dalam setiap gigitan.",
+      "Price": "150.000",
+      "Id": "2",
+      "Img": "asset/img/3.jpg"
+    },
+    {
+      "Type": "Weeding 2Layer Cake",
+      "Description": "Rasakan kelezatan istimewa Blueberry Vanilla Cake kami, kombinasi sempurna blueberry segar dan vanilla lembut dalam setiap gigitan.",
+      "Price": "215.000",
+      "Id": "3",
+      "Img": "asset/img/4.jpg"
+    },
+    {
+      "Type": "Birthday Crown Cake",
+      "Description": "Rasakan kelezatan istimewa Blueberry Vanilla Cake kami, kombinasi sempurna blueberry segar dan vanilla lembut dalam setiap gigitan.",
+      "Price": "150.000",
+      "Id": "4",
+      "Img": "asset/img/5.jpg"
+    },
+    {
+      "Type": "Mini Cake",
+      "Description": "Rasakan kelezatan istimewa Blueberry Vanilla Cake kami, kombinasi sempurna blueberry segar dan vanilla lembut dalam setiap gigitan.",
+      "Price": "50.000",
+      "Id": "5",
+      "Img": "asset/img/6.jpg"
+    },
+    {
+      "Type": "Lovely Black Cake",
+      "Description": "Rasakan kelezatan istimewa Blueberry Vanilla Cake kami, kombinasi sempurna blueberry segar dan vanilla lembut dalam setiap gigitan.",
+      "Price": "150.000",
+      "Id": "6",
+      "Img": "asset/img/7.jpg"
+    },
+    {
+      "Type": "2Layer Birthday Cake",
+      "Description": "Rasakan kelezatan istimewa Blueberry Vanilla Cake kami, kombinasi sempurna blueberry segar dan vanilla lembut dalam setiap gigitan.",
+      "Price": "215.000",
+      "Id": "7",
+      "Img": "asset/img/8.jpg"
+    }
+  ]
+}
