@@ -80,7 +80,7 @@ function updateUi(cards) {
 }
 
 function showCard(m) {
-  return `<div class="card">
+  return `<div class="card" data-aos="fade-up">
   <div class="card-heading">
     <img src="${m.Img}" alt="" />
   </div>
