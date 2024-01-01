@@ -22,7 +22,6 @@ navItem.forEach((items) => {
       menuToggle.textContent = 'menu';
       toggleOpen = false;
     }
-    items.classList.toggle('active');
   });
 });
 
@@ -52,7 +51,6 @@ const charNavBrand = [...navBrand.textContent];
 
 let containerChar = [];
 charNavBrand.forEach((char, index) => {
-  navBrand.textContent = '';
   containerChar.push(`<span style="animation-delay: ${index * 600}ms">${char}</span>`);
   if (index == 11) {
     navBrand.innerHTML = containerChar.join('');
@@ -330,7 +328,6 @@ function hitungItem(item, index) {
     if (totalItemsArr[index] != undefined) {
       totalItemsArr[index] = parseInt(m.textContent);
     } else {
-      // totalItemsArr[index] = parseInt(m.textContent);
       totalItemsArr.push(parseInt(m.textContent));
     }
     masukanKeHtml();
@@ -349,7 +346,7 @@ const labelName = document.querySelectorAll('.form-group label');
 const formContainer2 = Array.from(labelName);
 const label = Array.from(labelName).map((item) => item.textContent);
 
-function coba(label, container) {
+function animated(label, container) {
   container.forEach((element, i) => {
     const element2 = label[i];
     const ch = [...element2].map((char, index) => {
@@ -364,7 +361,7 @@ function coba(label, container) {
   });
 }
 
-coba(label, formContainer2);
+animated(label, formContainer2);
 
 // button in Cart
 
@@ -464,7 +461,6 @@ function checkInput() {
     const initialTextBtn = btnMsg.textContent;
     btnMsg.addEventListener('click', async (btn) => {
       btn.preventDefault();
-      btnMsg.textContent = 'Pesan terkirim!';
       await resetInput();
       btnMsg.style.backgroundColor = '';
       btnMsg.textContent = initialTextBtn;
@@ -485,14 +481,3 @@ function resetInput() {
     }, 1000);
   });
 }
-
-// test
-
-// const testestes = document.querySelector('a.btn-to-catalog');
-// testestes.addEventListener('click', () => {
-//   console.log(testestes);
-// });
-
-window.addEventListener('click', (e) => {
-  console.log(e.target);
-});
